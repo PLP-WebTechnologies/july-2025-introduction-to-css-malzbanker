@@ -1,0 +1,75 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+.site-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+/* Navigation */
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Sections */
+.content-section {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box; /* ensures padding and border are included in width */
+}
+
+/* Box Model Example for Service Cards */
+.box-example {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  flex: 1 1 200px; /* grow, shrink, basis */
+  padding: 15px; /* space inside border */
+  border: 2px solid #4CAF50; /* border around content */
+  margin: 10px; /* space outside border */
+  border-radius: 5px;
+  background-color: #e8f5e9;
+  box-sizing: border-box;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
